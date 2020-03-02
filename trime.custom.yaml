@@ -21,37 +21,37 @@ patch:
     height: 52
     keys:
       # row 1
-    - {click: 'q', swipe_down: '1', hint: '1'}
-    - {click: 'w', swipe_down: '2', hint: '2'}
-    - {click: 'e', swipe_down: '3', hint: '3'}
-    - {click: 'r', swipe_down: '4', hint: '4'}
-    - {click: 't', swipe_down: '5', hint: '5'}
-    - {click: 'y', swipe_down: '6', hint: '6'}
-    - {click: 'u', swipe_down: '7', hint: '7'}
-    - {click: 'i', swipe_down: '8', hint: '8'}
-    - {click: 'o', swipe_down: '9', hint: '9'}
-    - {click: 'p', swipe_down: '0', hint: '0'}
+    - {click: 'q', swipe_up: '1', hint: '1'}
+    - {click: 'w', swipe_up: '2', hint: '2'}
+    - {click: 'e', swipe_up: '3', hint: '3'}
+    - {click: 'r', swipe_up: '4', hint: '4'}
+    - {click: 't', swipe_up: '5', hint: '5'}
+    - {click: 'y', swipe_up: '6', hint: '6'}
+    - {click: 'u', swipe_up: '7', hint: '7'}
+    - {click: 'i', swipe_up: '8', hint: '8'}
+    - {click: 'o', swipe_up: '9', hint: '9'}
+    - {click: 'p', swipe_up: '0', hint: '0'}
       # row 2
     - {width: 5}
-    - {click: 'a', swipe_down: '@', hint: '@'}
-    - {click: 's', swipe_down: '*', hint: '*'}
-    - {click: 'd', swipe_down: '+', hint: '+'}
-    - {click: 'f', swipe_down: '-', hint: '-'}
-    - {click: 'g', swipe_down: '=', hint: '='}
-    - {click: 'h', swipe_down: '/', hint: '/'}
-    - {click: 'j', swipe_down: '#', hint: '#'}
-    - {click: 'k', swipe_down: '(', hint: '('}
-    - {click: 'l', swipe_down: ')', hint: ')'}
+    - {click: 'a', swipe_up: '@', hint: '@'}
+    - {click: 's', swipe_up: '*', hint: '*'}
+    - {click: 'd', swipe_up: '+', hint: '+'}
+    - {click: 'f', swipe_up: '-', hint: '-'}
+    - {click: 'g', swipe_up: '=', hint: '='}
+    - {click: 'h', swipe_up: '/', hint: '/'}
+    - {click: 'j', swipe_up: '#', hint: '#'}
+    - {click: 'k', swipe_up: '(', hint: '('}
+    - {click: 'l', swipe_up: ')', hint: ')'}
     - {width: 5}
       # row 3
     - {click: Shift_L, send_bindings: false, width: 15}
-    - {click: 'z', swipe_down: "'", hint: "'"}
-    - {click: 'x', swipe_down: ':', hint: ':'}
-    - {click: 'c', swipe_down: '"', hint: '"'}
-    - {click: 'v', swipe_down: '?', hint: '?'}
-    - {click: 'b', swipe_down: '~', hint: '~'}
-    - {click: 'n', swipe_down: '!', hint: '!'}
-    - {click: 'm', swipe_down: "…", hint: '…'}
+    - {click: 'z', swipe_up: "'", hint: "'"}
+    - {click: 'x', swipe_up: ':', hint: ':'}
+    - {click: 'c', swipe_up: '"', hint: '"'}
+    - {click: 'v', swipe_up: '?', hint: '?'}
+    - {click: 'b', swipe_up: '~', hint: '~'}
+    - {click: 'n', swipe_up: '!', hint: '!'}
+    - {click: 'm', swipe_up: "…", hint: '…'}
     - {click: BackSpace, width: 15}
       # row 4
     - {click: Keyboard_symbols_4row, long_click: Keyboard_google_number, width: 15}
